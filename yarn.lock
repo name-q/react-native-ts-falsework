@@ -5474,6 +5474,11 @@ react-native-codegen@^0.0.7:
     jscodeshift "^0.11.0"
     nullthrows "^1.1.1"
 
+react-native-config@^1.4.5:
+  version "1.4.5"
+  resolved "https://registry.npmmirror.com/react-native-config/download/react-native-config-1.4.5.tgz#6fe5895410b75e44fe4f4bf00caaf894a0981f3a"
+  integrity sha1-b+WJVBC3XkT+T0vwDKr4lKCYHzo=
+
 react-native@0.66.4:
   version "0.66.4"
   resolved "https://registry.npmmirror.com/react-native/download/react-native-0.66.4.tgz#bf89a5fb18bd23046d889fb4de4ea2822a4d7805"

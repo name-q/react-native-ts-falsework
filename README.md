@@ -7,3 +7,5 @@ android/gradle.properties
 `org.gradle.java.home=`
 
 Windows system \Change to//
+
+## react-native-config
