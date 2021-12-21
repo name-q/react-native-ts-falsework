@@ -9,3 +9,10 @@ android/gradle.properties
 Windows system \Change to//
 
 ## react-native-config
+
+Global variableal variable
+
+## babel-plugin-module-resolver
+
+Absolute path
+
