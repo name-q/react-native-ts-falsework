@@ -2,8 +2,8 @@
 
 ## Determine the Java path
 
-<!--android/gradle.properties--> 
+android/gradle.properties
 
 `org.gradle.java.home=`
 
-<!--Windows system \Change to//-->
+Windows system \Change to//
