@@ -1,11 +1,12 @@
-import React, { useMemo } from 'react';
+import React from 'react';
 import { createBottomTabNavigator, } from '@react-navigation/bottom-tabs'
 import HomePage from '@/pages/home'
 import Listen from '@/pages/listen'
 import Found from '@/pages/found'
 import Account from '@/pages/account'
-import { RootStackNavigation, RootStackParamList } from './stack';
+import { RootStackParamList } from './stack';
 import { RouteProp, TabNavigationState } from '@react-navigation/native';
+import AntDesign from 'react-native-vector-icons/AntDesign'
 
 export type BottomTabsParamList = {
     Home: undefined;
@@ -30,22 +31,34 @@ function AppButtomTabs() {
             <BottomTabs.Screen
                 name="Home"
                 component={HomePage}
-                options={{ title: '首页' }}
+                options={{
+                    title: '首页',
+                    tabBarIcon: ({ color, size }) => (<AntDesign name='smileo' size={size} style={{ color }} />)
+                }}
             />
             <BottomTabs.Screen
                 name="Listen"
                 component={Listen}
-                options={{ title: '我听' }}
+                options={{
+                    title: '我听',
+                    tabBarIcon: ({ color, size }) => (<AntDesign name='customerservice' size={size} style={{ color }} />)
+                }}
             />
             <BottomTabs.Screen
                 name="Found"
                 component={Found}
-                options={{ title: '发现' }}
+                options={{
+                    title: '发现',
+                    tabBarIcon: ({ color, size }) => (<AntDesign name='staro' size={size} style={{ color }} />)
+                }}
             />
             <BottomTabs.Screen
                 name="Account"
                 component={Account}
-                options={{ title: '我的' }}
+                options={{
+                    title: '我的',
+                    tabBarIcon: ({ color, size }) => (<AntDesign name='rest' size={size} style={{ color }} />)
+                }}
             />
         </BottomTabs.Navigator>
     );
