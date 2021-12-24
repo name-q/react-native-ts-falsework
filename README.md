@@ -20,6 +20,28 @@ Absolute path
 
 https://oblador.github.io/react-native-vector-icons/
 
-## react-navigation  stack & bottom-tabs
+## react-navigation  stack & bottom-tabs & material-top-tabs
 
-index --> stack :[ { bottom-tabs: [tab1,tab2,tab3,tab4] }, stack, stack, ....  ]
+index --> 
+
+stack :
+
+[ 
+
+​	{ bottom-tabs:
+
+​		 [  tab1:{
+
+​				topTabs1,topTabs2,topTabs3,topTabs4
+
+​			  }
+
+​		    ,tab2,tab3,tab4
+
+​		  ] 
+
+​	}
+
+​	, stack, stack, ....  
+
+]

@@ -3,14 +3,14 @@ import { createBottomTabNavigator, } from '@react-navigation/bottom-tabs'
 import { RootStackParamList } from './stack';
 import { RouteProp, TabNavigationState } from '@react-navigation/native';
 import AntDesign from 'react-native-vector-icons/AntDesign'
+import AppMaterialTopTabs from '@/navigator/materialTopTabs'
 
-import HomePage from '@/pages/home'
 import Listen from '@/pages/listen'
 import Found from '@/pages/found'
 import Account from '@/pages/account'
 
 export type BottomTabsParamList = {
-    Home: undefined;
+    MaterialTopTabs: undefined;
     Listen: undefined;
     Found: undefined;
     Account: undefined;
@@ -30,12 +30,13 @@ function AppButtomTabs() {
             }}
         >
             <BottomTabs.Screen
-                name="Home"
-                component={HomePage}
+                name="MaterialTopTabs"
+                component={AppMaterialTopTabs}
                 options={{
                     title: '首页',
                     tabBarIcon: ({ color, size }) => (<AntDesign name='smileo' size={size} style={{ color }} />)
                 }}
+
             />
             <BottomTabs.Screen
                 name="Listen"
