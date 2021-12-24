@@ -28,20 +28,18 @@ stack :
 
 [ 
 
-​	{ bottom-tabs:
+​    { bottom-tabs:
 
-​		 [  tab1:{
+​        [  tab1:{
 
-​				topTabs1,topTabs2,topTabs3,topTabs4
+​                       topTabs1,topTabs2,topTabs3,topTabs4
 
-​			  }
+​                      }
 
-​		    ,tab2,tab3,tab4
+​           ,tab2,tab3,tab4
 
-​		  ] 
+​         ] }
 
-​	}
-
-​	, stack, stack, ....  
+​     , stack, stack, ....  
 
 ]
