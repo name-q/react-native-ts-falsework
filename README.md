@@ -24,22 +24,18 @@ https://oblador.github.io/react-native-vector-icons/
 
 index --> 
 
-stack :
+stack1:
 
-[ 
+​    { 
 
-​    { bottom-tabs:
+​           bottomTabs1 :{
 
-​        [  tab1:{
+​                       topTabs1,  topTabs2,  topTabs3,  topTabs4
 
-​                       topTabs1,topTabs2,topTabs3,topTabs4
+​             },
 
-​                      }
+​            bottomTabs2,  bottomTabs3,  bottomTabs4
 
-​           ,tab2,tab3,tab4
+​       }
 
-​         ] }
-
-​     , stack, stack, ....  
-
-]
+ , stack2, stack3, ....  
