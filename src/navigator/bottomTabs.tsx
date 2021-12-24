@@ -1,12 +1,13 @@
 import React from 'react';
 import { createBottomTabNavigator, } from '@react-navigation/bottom-tabs'
+import { RootStackParamList } from './stack';
+import { RouteProp, TabNavigationState } from '@react-navigation/native';
+import AntDesign from 'react-native-vector-icons/AntDesign'
+
 import HomePage from '@/pages/home'
 import Listen from '@/pages/listen'
 import Found from '@/pages/found'
 import Account from '@/pages/account'
-import { RootStackParamList } from './stack';
-import { RouteProp, TabNavigationState } from '@react-navigation/native';
-import AntDesign from 'react-native-vector-icons/AntDesign'
 
 export type BottomTabsParamList = {
     Home: undefined;
