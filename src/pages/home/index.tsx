@@ -16,6 +16,9 @@ function Home({ navigation }: IProps) {
                 <TouchableOpacity onPress={() => navigation.navigate('Detail', { id: 'name-q' })} >
                     <Text style={{ marginTop: 10, color: 'blue' }}>Go to Details</Text>
                 </TouchableOpacity>
+                <TouchableOpacity onPress={() => navigation.navigate('AppDrawer')} >
+                    <Text style={{ marginTop: 10, color: 'blue' }}>Go to Drawer</Text>
+                </TouchableOpacity>
             </SafeAreaView>
         </View>
     );

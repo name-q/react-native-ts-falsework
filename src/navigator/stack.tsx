@@ -1,11 +1,14 @@
 import React from 'react';
 import { CardStyleInterpolators, createStackNavigator, HeaderStyleInterpolators, StackNavigationProp } from '@react-navigation/stack';
+
 import AppBottomTabs from '@/navigator/bottomTabs'
 import DetailPage from '@/pages/detail'
+import AppDrawer from '@/navigator/drawer'
 
 export type RootStackParamList = {
     BottomTabs: undefined;
     Detail: { id: string };
+    AppDrawer: undefined;
 }
 const Stack = createStackNavigator<RootStackParamList>();
 
@@ -35,6 +38,11 @@ function AppStack() {
                 name="Detail"
                 component={DetailPage}
                 options={{ title: '详情页' }}
+            />
+            <Stack.Screen
+                name="AppDrawer"
+                component={AppDrawer}
+                options={{ title: '抽屉页', gestureEnabled: false }}
             />
         </Stack.Navigator>
     );

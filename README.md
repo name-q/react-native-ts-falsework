@@ -32,10 +32,28 @@ stack1:
 
 ​                       topTabs1,  topTabs2,  topTabs3,  topTabs4
 
-​             },
+​             }
 
-​            bottomTabs2,  bottomTabs3,  bottomTabs4
+​	   ,bottomTabs2
+
+​	   ,bottomTabs3
+
+​	   ,bottomTabs4
 
 ​       }
 
- , stack2, stack3, ....  
+ , stack2
+
+ , stack3:
+
+​    {
+
+​	<!--Warning: debug cannot be turned on when using drawer-->
+
+​	  drawer:{
+
+​		  drawer1,drawer2,drawer3 
+
+​	  }        
+
+​    }  
