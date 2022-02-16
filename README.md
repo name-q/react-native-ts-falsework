@@ -57,3 +57,23 @@ stack1:
 ​	  }        
 
 ​    }  
+
+
+
+## redux + action.commonChange
+
+action.commonChange   change  store  
+
+> main:{params1,params2,params3...}
+
+​     action.commonChange([
+
+​            { paths: 'main.params1', value: 1 },
+
+​            { paths: 'main.params2', value: [2] },
+
+​            { paths: 'main.params3', value: 'value3' }
+
+​      ])
+
+​     action.commonChange('main.params1', 'value1');
