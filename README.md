@@ -77,3 +77,8 @@ action.commonChange   change  store
 ​      ])
 
 ​     action.commonChange('main.params1', 'value1');
+
+
+
+## mitt
+
